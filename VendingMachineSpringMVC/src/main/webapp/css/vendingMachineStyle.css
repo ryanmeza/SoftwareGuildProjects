@@ -1,0 +1,59 @@
+
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.snack {
+    border: 2px solid;
+    margin: 5px 20px 5px 20px;
+
+
+}
+
+.snackSlot {
+    text-align: left !important;
+}
+
+.snackName, .snackPrice, .snackQuantity {
+    text-align: center;
+
+}
+
+#total-amount-in {
+    text-align: center;
+    border-bottom: solid;
+}
+
+#addDollar, #addQuarter, #addDime, #addNickel {
+    width: 120px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+#messages, #change {
+    border-bottom: solid;
+}
+
+
+#returnChange {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.row {
+    text-align: center;
+}
+
+#makePurchase {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#selectedItem {
+    margin: 5px 5px 5px 5px;
+
+}

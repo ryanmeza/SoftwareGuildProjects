@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2018, 11:23:48 PM
+    Author     : Ryan
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
+h1, h2, p {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    background-color: #83adb5;
+    font-family: 'Rokkitt', serif;
+    color: #381134;
+}
+
+.navbar-nav {
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    background-color: #c9d414;
+   
+}
+.navbar-collapse {
+    background-color: #c9d414;
+}
+
+.bg-light {
+    background-color: #c9d414 !important;
+}
+a {
+    color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #381134;
+    padding-right: 75px;
+    padding-left: 75px;
+        
+}
+
+.form-control {
+    background-color: #381134;
+    color: #b80138 !important;
+}
+
+.form-control[readonly] {
+    background-color: #381134;
+}
+ 
+#archetypeDescription, archetypeName {
+    color: white !important;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #891035;
+    color: white;
+}
+
+input::placeholder {
+    color: white;;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/vendingMachineStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Vending Machine</h1>
+            <hr />
+
+            <div class="row">
+                <div class="col-md-9" id="snacks"></div>
+                <div class="col-md-3">
+                    <div id="total-amount-in" class="col-lg-12">
+                        <div class="row">
+                            <h3>Total $ In</h3>
+                            <label id="amountInput">0.00</label>
+                        </div>
+                        <div class="row">
+                            <button type="button" id="addDollar" class="btn btn-outline-dark col-lg-6">Add Dollar</button>
+                            <button type="button" id="addQuarter" class="btn btn-outline-dark col-lg-6">Add Quarter</button>
+                        </div>
+                        <div class="row">
+                            <button type="button" id="addDime" class="btn btn-outline-dark col-lg-6">Add Dime</button>
+                            <button type="button" id="addNickel" class="btn btn-outline-dark col-lg-6">Add Nickel</button>
+                        </div>
+                    </div>
+                    <div id="messages" class="col-lg-12">
+                        <h3>Messages</h3>
+                        <input class="form-control" type="text" id="messageDisplay">
+                        <label for="selectedItem">Item Selected:</label>
+                        <input class="form-control" type="text" id="selectedItem">
+                        <br />
+                        <button type="button" id="makePurchase" class="btn btn-outline-dark">Make Purchase</button>
+                    </div>
+                    <div id="change" class="col-lg-12">
+                        <h3>Change</h3>
+                        <input class="form-control" type="text" id="changeReturned">
+                        <button type="button" id="returnChange" class="btn btn-outline-dark">Change Return</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+
+    </body>
+</html>

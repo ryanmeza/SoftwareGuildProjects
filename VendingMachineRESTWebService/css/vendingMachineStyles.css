@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+ 
+h3 {
+    text-align: center;
+}
+
+.snack {
+    border: 2px solid;
+    margin: 5px 20px 5px 20px;
+   
+    
+}
+
+.snackSlot {
+    text-align: left;
+}
+
+.snackName, .snackPrice, .snackQuantity {
+    text-align: center;
+    
+}
+
+.total-amount-in {
+    text-align: center;
+}
+
